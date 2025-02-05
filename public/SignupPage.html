@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - Door Drop</title>
+    <link rel="stylesheet" href="CSS/loginpage.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/icon.jpg" alt="Door Drop Logo">
+            <div class="logo-text">
+                <h1>Door Drop</h1>
+                <h3>Effortless Delivery Solutions</h3>
+            </div>
+        </div>
+        
+        <nav class="header_nav_section">
+            <a href="index.html">Home</a>
+            <a href="./public/services.html">Services</a>
+            <a href="./public/TrackOrder.html">Track Order</a>
+            <a href="./public/AboutUs.html">About Us</a>
+            <a href="./public/Contact.html">Contact Us</a>
+            <a href="./public/SignupPage.html">Login/Sign Up</a>
+        </nav>
+    </header>
+
+<section class="auth-container">
+    <div class="form-container">
+        <h2>Signup</h2>
+        <form action="signup-process.php" method="POST">
+            <label for="signup-name">Name:</label>
+            <input type="text" id="signup-name" name="name" placeholder="Enter your name" required>
+
+            <label for="signup-email">Email:</label>
+            <input type="email" id="signup-email" name="email" placeholder="Enter your email" required>
+
+            <label for="signup-password">Password:</label>
+            <input type="password" id="signup-password" name="password" placeholder="Create a password" required>
+
+            <button type="submit">Signup</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Door Drop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

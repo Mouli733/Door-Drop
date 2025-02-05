@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background: white;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  background: #008cba;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column; /* Stack text vertically */
+}
+
+.logo-text h1 {
+  margin-bottom: 5px; /* Add spacing between h1 and h3 */
+}
+
+.logo-text h3 {
+  margin-top: 0;
+  font-size: 0.9rem; /* Adjust font size if needed */
+  color: #e0e0e0; /* Optional: subtle color adjustment for h3 */
+}
+
+
+nav {
+  margin-left: auto;
+}
+
+nav a {
+  display: inline-flex;
+  padding: 1rem 2rem;
+  margin: 0.5rem 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 50, 100, 0.3);
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 140, 186, 0.8);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+nav a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 50, 100, 0.5);
+}
+
+.auth-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.form-container {
+  flex: 1;
+  padding: 2rem;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #343a40;
+  color: white;
+}
+
+.signup{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.signup a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+
+
+
